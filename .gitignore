@@ -1,0 +1,37 @@
+
+# ==========================================
+# Dependencies
+# ==========================================
+node_modules/
+
+# ==========================================
+# Playwright and BDD generated files
+# ==========================================
+.features-gen/
+test-results/
+playwright-report/
+blob-report/
+
+# Playwright browser cache and authentication state
+playwright/.cache/
+playwright/.auth/
+
+# ==========================================
+# Local environment and sensitive files
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# Debug logs
+# ==========================================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================================
+# Operating system files
+# ==========================================
+.DS_Store
